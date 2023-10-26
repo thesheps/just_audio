@@ -219,15 +219,6 @@ class ControlButtons extends StatelessWidget {
                 );
               },
             ),
-            TextButton(
-              child: const Text('30-60 secs'),
-              onPressed: () async {
-                await player.setClip(
-                  start: const Duration(seconds: 30),
-                  end: const Duration(seconds: 60),
-                );
-              },
-            ),
             IconButton(
               icon: const Icon(Icons.loop),
               iconSize: 64.0,
